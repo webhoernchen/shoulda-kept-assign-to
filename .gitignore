@@ -11,3 +11,6 @@ tmp
 *.rbc
 gemfiles/*.gemfile.lock
 Gemfile.lock
+
+#vim
+*.un~
