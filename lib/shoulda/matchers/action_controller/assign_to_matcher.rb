@@ -20,6 +20,7 @@ module Shoulda # :nodoc:
 
       class AssignToMatcher # :nodoc:
         attr_reader :failure_message, :failure_message_when_negated
+        alias negative_failure_message failure_message_when_negated
 
         def initialize(variable)
           @variable    = variable.to_s
